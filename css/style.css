@@ -1,3 +1,80 @@
 .hidden{
     display:none;
 }
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#weather {
+    top:25px;
+    right: 25px;
+    position : absolute;
+    font-size: 1rem;
+    color:aliceblue;
+    font-style: italic;
+}
+#clock {
+    text-align: center;
+    font-size: 7rem;
+    color:aliceblue;
+    font-style: italic;
+    margin: 0;
+}
+
+#greeting  {
+    align-items: center;
+    flex-direction: column;
+    color:aliceblue;
+    font-style: italic;
+    font-size: 3rem;
+    background: none;
+}
+.nameInput {
+    background: none;
+    color :aliceblue;
+    font-size: 3rem;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+}
+
+
+#todo-list {
+    text-align: center;
+    color:aliceblue;
+    font-style: italic;
+    font-size: 2rem;
+}
+.todoInput {
+    background: none;
+    color :aliceblue;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+#quote {
+    display: flex;
+    bottom:25px;
+    left: 25px;
+    position: absolute;
+    color:aliceblue;
+    font-style: italic;
+}
